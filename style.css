@@ -1,0 +1,109 @@
+body{
+
+    font-size: 18px;
+    background-color:rgba(248,249,253,255);
+    text-align: center;
+    padding: 10% 5%;
+    
+
+}
+
+.btn.btn-primary{
+    background-color: hsl(224, 30%, 27%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    height: 35px;
+    padding: 10px 20px;
+    font-size: 10px;
+    font-weight: bold;
+    
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    margin: 25px 40px
+    
+    
+}
+.btn.btn-primary:hover{
+    background-color: hsl(234, 85%, 45%);
+}
+
+.tnum{
+    display: inline-block;
+    background-color: hsl(0, 0%, 100%);
+    position:relative;
+    z-index: 0;
+    right: 15px;
+    border-radius:25px;
+    width: 275px;
+    height: 375px;
+    padding-left: 15px;
+
+}
+.gray{
+    color:gray;
+}
+.background{
+    border-radius: 10px;
+    padding: 3px;
+}
+.red{
+    background-color: hsla(0, 100%, 67%, 10%);
+}
+.orange{
+    background-color: hsla(39, 100%, 56%, 10%);
+}
+.teal{
+    background-color: hsla(166, 100%, 37%, 10%);
+}
+.purple{
+    background-color: hsla(234, 85%, 45%, 10%);
+}
+.row.background{
+    margin-left: 5px;
+    width: 250px;
+}
+.col-auto{
+    word-spacing: 2px;
+}
+/* Text div */
+.text{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    border-radius: 25px;
+    padding: 10px;
+    width: 275px;
+    height: 375px;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 0.95), hsla(241, 72%, 46%, 0.9)); 
+
+}
+.circle{
+    position: relative;
+    margin-left: 55px;
+    padding: 15px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: hsla(241, 72%, 46%, 0.3);
+
+}
+.bottom{
+    margin-top: 25px;
+}
+h1{
+    font-size: 64px;
+}
+h6{
+    font-size: 16px;
+    display: inline-block;
+}
+.Result{
+    color: rgba(237, 231, 225, 0.8);
+    margin-top:5px;
+    font-size:16px;
+}
